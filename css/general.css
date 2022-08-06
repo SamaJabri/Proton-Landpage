@@ -1,0 +1,21 @@
+:root {
+    /* Default button color */
+    /* Text with light purple */
+    --custom-light-purple: rgb(109, 74, 255);
+
+    /* Button on hover */
+    --custom-medium-purple: rgb(74, 45, 197);
+
+    /* Button on click */
+    /* Text with dark purple */
+    --custom-dark-purple: rgb(55, 37, 128);
+
+    --custom-purple: rgb(73, 75, 122);
+    --custom-grey: rgb(55, 65, 81);
+    --custom-dark-blue: rgb(31, 41, 55);
+    --background:  #e5e7eb;
+}
+
+html {
+    font-family: Arizona, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
