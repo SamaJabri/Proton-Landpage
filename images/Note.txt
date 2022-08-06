@@ -1,0 +1,2 @@
+- Section 05 has no images
+- The images put outside any folder are used across sections
