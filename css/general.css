@@ -24,6 +24,7 @@ html {
     Noto Color Emoji;    
     background-color:  rgb(247, 245, 255);
     tab-size: 4;
+    overflow-x: hidden;
 }
 
 a {
