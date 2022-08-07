@@ -597,7 +597,7 @@ svg
 {
     max-width   : 40rem;
     font-size   : 40px;
-    font-weight : bolder;
+    font-weight : inherit;
     text-align  : center;
 }
 
