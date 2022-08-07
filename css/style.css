@@ -573,13 +573,6 @@ svg
     box-shadow    : var(--custom-dark-purple) 0px 20px 30px -10px;
 }
 
-.muhammed
-{
-    overflow         : scroll;
-    flex-wrap        : wrap;
-    background-image : url(images/arka-plan-yeni.png);
-}
-
 .main
 {
     background-color : var(--custom-light-purple);
@@ -592,124 +585,121 @@ svg
 
 .container
 {
-
     position        : absolute;
-    top             : 40%;
-    left            : 25%;
+    top             : 230%;
+    left            : 30%;
     justify-content : right;
     font-size       : 20px;
     color           : var(--custom-dark-purple);
-
 }
+
 .text
 {
-
     max-width   : 40rem;
-
     font-size   : 40px;
     font-weight : bolder;
     text-align  : center;
-
 }
+
 .text-purple
 {
     color : var(--custom-light-purple);
-
 }
+
 .key
 {
     position : absolute;
-
-    top      : 50px;
+    top      : 1800px;
     left     : 500px;
 
 }
+
 .lock
 {
     position : absolute;
-    top      : 300px;
+    top      : 2100px;
     left     : 50px;
-
 }
+
 .bag
 {
     position : absolute;
-
-    top      : 50px;
+    top      : 1800px;
     right    : 500px;
-
 }
+
 .mail
 {
     position : absolute;
-
+    top      : 2500px;
     bottom   : 100px;
     left     : 400px;
-
 }
+
 .people
 {
     position : absolute;
-
+    top: 2500px;
     right    : 300px;
     bottom   : 250px;
-
 }
+
 .card
 {
     display        : flex;
     flex-direction : column;
     max-width      : 30rem;
-
     text-align     : left;
     gap            : 3rem;
-
 }
+
 .card-footer svg
 {
     max-width : 20px;
 
 }
+
 .card-header
 {
     font-size : 20px;
     color     : var(--custom-dark-purple);
 }
+
 .card-data
 {
     font-weight : bolder;
     color       : var(--custom-purple);
 }
+
 .first-line
 {
     display               : grid;
     margin                : 1250px 100px 0px 100px;
-
     grid-template-columns : 1fr 1fr 1fr;
-
 }
+
 .second-line
 {
     display               : grid;
     margin                : 40px 100px 0px 100px;
     grid-template-columns : 1fr 1fr 1fr;
 }
+
 a
 {
     transition      : 0.5s;
     text-decoration : none;
 }
+
 a:hover
 {
     text-decoration : underline;
     text-transform  : capitalize;
-
     color           : var(--custom-light-purple);
 }
 
 @media screen and (max-width : 1270px)
 {
-
     .buttons div, .container div
     {
         position       : unset;
@@ -717,8 +707,8 @@ a:hover
         flex-direction : row;
         flex-wrap      : wrap;
         margin-left    : 5px;
-
     }
+    
     .buttons
     {
         margin-left : -100px;
@@ -731,32 +721,24 @@ a:hover
 
     div.container
     {
-
         position       : inherit;
         display        : flex;
         flex-direction : row;
         flex-wrap      : wrap;
         max-width      : 45ch;
         max-height     : 8ch;
-
         margin-top     : 2rem;
-
         font-size      : 30px;
-
         text-align     : left;
-
     }
-
 }
+
 @media screen and (max-width : 600px)
 {
-
     .buttons
     {
-
         margin-left : 50px;
     }
-
 }
 
 /* Section Five */
