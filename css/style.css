@@ -573,7 +573,6 @@ svg
     box-shadow    : var(--custom-dark-purple) 0px 20px 30px -10px;
 }
 
-<<<<<<< HEAD
 .muhammed
 {
     position         : relative;
@@ -583,8 +582,6 @@ svg
     background-image : url(images/arka-plan-yeni.png);
 }
 
-=======
->>>>>>> d29282ada14df6ba95569b90a44bdf233283554b
 .main
 {
     background-color : var(--custom-light-purple);
@@ -598,11 +595,7 @@ svg
 .container
 {
     position        : absolute;
-<<<<<<< HEAD
     top             : 500px;
-=======
-    top             : 230%;
->>>>>>> d29282ada14df6ba95569b90a44bdf233283554b
     left            : 30%;
     justify-content : right;
     max-width       : 120rem;
@@ -612,16 +605,10 @@ svg
 
 .text
 {
-<<<<<<< HEAD
     max-width   : 45.625rem;
     font-size   : 2.75rem;
     font-weight : inherit;
     line-height : 1.273;
-=======
-    max-width   : 40rem;
-    font-size   : 40px;
-    font-weight : inherit;
->>>>>>> d29282ada14df6ba95569b90a44bdf233283554b
     text-align  : center;
 }
 
@@ -633,44 +620,28 @@ svg
 .key
 {
     position : absolute;
-<<<<<<< HEAD
     top      : 180px;
-=======
-    top      : 1800px;
->>>>>>> d29282ada14df6ba95569b90a44bdf233283554b
     left     : 500px;
 }
 
 .lock
 {
     position : absolute;
-<<<<<<< HEAD
     top      : 480px;
-=======
-    top      : 2100px;
->>>>>>> d29282ada14df6ba95569b90a44bdf233283554b
     left     : 50px;
 }
 
 .bag
 {
     position : absolute;
-<<<<<<< HEAD
     top      : 180px;
-=======
-    top      : 1800px;
->>>>>>> d29282ada14df6ba95569b90a44bdf233283554b
     right    : 500px;
 }
 
 .mail
 {
     position : absolute;
-<<<<<<< HEAD
     top      : 880px;
-=======
-    top      : 2500px;
->>>>>>> d29282ada14df6ba95569b90a44bdf233283554b
     bottom   : 100px;
     left     : 400px;
 }
@@ -678,11 +649,7 @@ svg
 .people
 {
     position : absolute;
-<<<<<<< HEAD
     top      : 880px;
-=======
-    top: 2500px;
->>>>>>> d29282ada14df6ba95569b90a44bdf233283554b
     right    : 300px;
     bottom   : 250px;
 }
@@ -727,11 +694,7 @@ svg
     grid-template-columns : 1fr 1fr 1fr;
 }
 
-<<<<<<< HEAD
 .muhammed-2 a:hover
-=======
-section:nth-child(4) a:hover
->>>>>>> d29282ada14df6ba95569b90a44bdf233283554b
 {
     text-decoration : underline;
     text-transform  : capitalize;
@@ -748,11 +711,7 @@ section:nth-child(4) a:hover
         flex-wrap      : wrap;
         margin-left    : 5px;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> d29282ada14df6ba95569b90a44bdf233283554b
     .buttons
     {
         display         : flex;
@@ -779,10 +738,7 @@ section:nth-child(4) a:hover
         max-width      : 45ch;
         max-height     : 8ch;
         margin-top     : 2rem;
-<<<<<<< HEAD
         margin-bottom  : -40rem;
-=======
->>>>>>> d29282ada14df6ba95569b90a44bdf233283554b
         font-size      : 30px;
         text-align     : left;
     }
