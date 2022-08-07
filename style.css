@@ -154,6 +154,146 @@ header {
     background-color: rgb(55, 37, 128);
 }
 
+.header__hamburger {
+    display: none;
+    justify-self: end;
+}
+
+.header__hamburger-button {
+    display: block;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    color: rgb(17 24 39);
+    background-color: transparent;
+    background-image: none;
+}
+
+.header__hamburger-button img {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+.header__hamburger-left-side {
+    opacity: 0.5;
+    background-color: rgb(17 24 39);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.header__close-button {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0px, 0px, 0px, 0px);
+    white-space: nowrap;
+    border-width: 0px;
+    background-color: transparent;
+    background-image: none;
+}
+
+.header__hamburger-right-side {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left: 8rem;
+    background-color: white;
+    z-index: 30;
+}
+
+.header__hamburger-top {
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 1.25rem;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.header__hamburger-top > div {
+    display: flex;
+}
+
+.header__hamburger-top > div > img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+}
+
+.header__hamburger-top > button {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    color: rgb(17 24 39);
+    display: block;
+    background-color: transparent;
+    background-image: none;
+}
+
+.header__hamburger-button:hover,
+.header__close-button:hover,
+.header__hamburger-top > button:hover {
+    cursor: pointer;
+}
+
+.header__hamburger-top > button > img {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+.header__hamburger-body {
+    padding-left: 2.5rem;
+    padding-right: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+    overflow-y: auto;
+    flex-grow: 1;
+    position: relative;
+}
+
+.header__hamburger-body ul {
+    list-style: none;
+}
+
+.header__hamburger-option {
+    display: flex;
+    align-items: center;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    font-size: 1.125rem;
+    line-height: 1.55;
+    color: rgb(55, 37, 128);
+    padding: 1.25rem 0;
+}
+
+.header__hamburger-option > img {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: 0.25rem;
+    color: rgb(109, 74, 255);
+}
+
+.header__hamburger-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.25rem;
+    border-top: 1px solid rgba(226, 219, 255, 0.342);
+}
+
+/* Section One */
+
 .section {
     display: flex;
     align-items: center;
