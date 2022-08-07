@@ -82,9 +82,103 @@
             Create a free account
           </a>
         </div>
+
+        <!-- Hamburger menu for reponsive verison -->
+        <div class="header__hamburger">
+          <div>
+            <button class="header__hamburger-button" id="hamburger-button">
+              <img src="images/Header/Hamburger Menu Icon.svg" alt="Open menu" />
+            </button>
+
+            <div id="navbar">
+              <div class="header__hamburger-left-side"></div>
+              <button class="header__close-button"></button>
+
+              <div>
+                <div class="header__hamburger-right-side">
+                    <div class="header__hamburger-top">
+                      <div>
+                        <img src="images/Section 8/Letter P from Proton.svg" alt="Proton logo" />
+                      </div>
+
+                      <button class="header__hamburger-close-button" id="close-hamburger">
+                        <img src="images/Header/Close Icon.svg" alt="Close menu" />
+                      </button>
+                    </div>
+
+                    <nav class="header__hamburger-body">
+                      <ul>
+                        <li>
+                          <a class="header__hamburger-option" href="/privacy"> 
+                            Security & Privacy
+                            <img src="images/Right Arrow.svg" alt />
+                          </a>
+                        </li>
+
+                        <li>
+                          <button class="header__hamburger-option"> 
+                            Products
+                            <img src="images/Right Arrow.svg" alt />
+                          </button>
+
+                          <!-- A div to be added to show when clicking the button -->
+                        </li>
+
+                        <li>
+                          <a class="header__hamburger-option" href="/pricing"> 
+                            Pricing
+                            <img src="images/Right Arrow.svg" alt />
+                          </a>
+                        </li>
+
+                        <li>
+                          <button class="header__hamburger-option"> 
+                            Who we are
+                            <img src="images/Right Arrow.svg" alt />
+                          </button>
+
+                          <!-- A div to be added to show when clicking the button -->
+                        </li>
+
+                        <li>
+                          <button class="header__hamburger-option"> 
+                            Resources
+                            <img src="images/Right Arrow.svg" alt />
+                          </button>
+
+                          <!-- A div to be added to show when clicking the button -->
+                        </li>
+
+                        <li>
+                          <a class="header__hamburger-option" href="/business"> 
+                            Business
+                            <img src="images/Right Arrow.svg" alt />
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+
+                    <div class="header__hamburger-bottom">
+                      <div>
+                        <a class="header__sign-in"
+                        href="https://account.proton.me/login?language=en" target="_blank">
+                          Sign in
+                        </a>
+                      </div>
+
+                      <div>
+                        <a class="header__new-account" href="/pricing">
+                          Create a free account
+                        </a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <!-- Hamburger menu button to be added for reponsive verison -->
     </header>
 
     <main>
@@ -171,7 +265,7 @@
       </section>
       
       <!-- Muhammed Altunisik Part -->
-               <section class="muhammed">
+      <section class="muhammed">
                     <div class="buttons">
                         <div class="key"  ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" data-testid="dynamic-hero-icon" class="h-8 w-8 text-purple-400"><path stroke-linecap="round" stroke-linejoin="round" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-2.586a1 1 0 01.293-.707l5.964-5.964A6 6 0 1121 9z"></path></svg></div>
                         <div class="bag" ><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" data-testid="dynamic-hero-icon" class="h-8 w-8 text-purple-400"><path stroke-linecap="round" stroke-linejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg></div>
@@ -185,9 +279,9 @@
                              
                     </div>
 
-                </section>
-
-                <section>
+      </section>
+      <!-- Muhammed Altunisik Part -->
+      <section>
                     <div class="first-line">
                         <div class="card">
                             <div class="card-header">
@@ -265,7 +359,7 @@
                         </div>
                     </div>
 
-                </section>
+      </section>
   
       <!-- Sama Jabri Part -->
       <section class="companies-section">
@@ -775,6 +869,7 @@
     </footer>
 
     <script>
+      
       function scrollFunction() {
         if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
           document.getElementById("header").style.height = '4rem';
@@ -784,6 +879,21 @@
           document.getElementById("header").style.borderBottom = 'none';
         }
       }
+
+      let hambugerButton = document.getElementById("hamburger-button");
+      let closeHamburger = document.getElementById("close-hamburger");
+      let nav = document.getElementById("navbar");
+
+      hambugerButton.addEventListener('click', () => {
+        nav.style.display = 'block';
+        nav.style.transition = 'all 0.5s linear';
+      })
+
+      closeHamburger.addEventListener('click', () => {
+        nav.style.display = 'none';
+        nav.style.transition = 'all 0.5s linear';
+
+      })
     </script>
 
   </body>
