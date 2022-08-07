@@ -13,7 +13,7 @@
     --custom-purple: rgb(73, 75, 122);
     --custom-grey: rgb(55, 65, 81);
     --custom-dark-blue: rgb(31, 41, 55);
-    --background:  #e5e7eb;
+    --background: rgb(247, 245, 255);
 }
 
 html {
@@ -40,3 +40,4 @@ button {
     font-size: 100%;
     line-height: inherit;
 }
+
