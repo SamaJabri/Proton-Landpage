@@ -685,13 +685,7 @@ svg
     grid-template-columns : 1fr 1fr 1fr;
 }
 
-a
-{
-    transition      : 0.5s;
-    text-decoration : none;
-}
-
-a:hover
+section:nth-child(4) a:hover
 {
     text-decoration : underline;
     text-transform  : capitalize;
