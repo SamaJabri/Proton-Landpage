@@ -754,6 +754,11 @@ svg
 
 /* Section Five */
 
+.companies-section 
+{
+    position            : relative;
+}
+
 .companies
 {
     display             : flex;
@@ -769,9 +774,9 @@ svg
 
 .companies-switch-buttons button
 {
-    position         : relative;
+    position         : absolute;
     z-index          : 10;
-    top              : 32vh;
+    top              : 40%;
     width            : 3rem;
     height           : 3rem;
     padding          : 0.75rem;
