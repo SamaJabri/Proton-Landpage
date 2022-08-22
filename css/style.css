@@ -715,9 +715,8 @@ svg
     .buttons
     {
         display         : flex;
-        justify-content : right;
-        width           : 80%;
-        margin-top      : 5rem;
+        justify-content : center;
+        width           : 100%;
         margin-left     : -100px;
         gap             : 3rem;
     }
@@ -729,16 +728,17 @@ svg
 
     div.container
     {
-        position       : inherit;
-        top            : 200px;
-        left           : 14%;
+        position       : static;
+        top            : 0;
+        left           : 0;
         display        : flex;
+        justify-content: center;
+        width          : 100%;
         flex-direction : row;
         flex-wrap      : wrap;
-        max-width      : 45ch;
         max-height     : 8ch;
-        margin-top     : 2rem;
-        margin-bottom  : -40rem;
+        margin-top     : 15rem;
+        margin-bottom  : -50rem;
         font-size      : 30px;
         text-align     : left;
     }
