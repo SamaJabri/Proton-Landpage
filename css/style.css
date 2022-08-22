@@ -717,7 +717,6 @@ svg
         display         : flex;
         justify-content : center;
         width           : 100%;
-        margin-left     : -100px;
         gap             : 3rem;
     }
 
