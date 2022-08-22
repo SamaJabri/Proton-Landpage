@@ -1835,6 +1835,11 @@ footer
     {
         padding : 0;
     }
+    
+    .section-nine__content p 
+    {
+        margin-right : 0;
+    }
 
     .section-nine__image img
     {
