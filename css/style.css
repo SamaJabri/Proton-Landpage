@@ -1861,6 +1861,25 @@ footer
     {
         grid-column-start : 2;
     }
+    
+    /* M.Altunisik second section */
+    .first-line,
+    .second-line 
+    {
+        grid-template-columns : 1fr;
+        gap                   : 3rem;
+        grid-template-rows    : repeat(3, 1fr);
+    }
+
+    .first-line 
+    {
+        margin-top : 1100px;
+    }
+
+    .card 
+    {
+        gap : 1rem;
+    }
 }
 
 @media (max-width : 872px)
